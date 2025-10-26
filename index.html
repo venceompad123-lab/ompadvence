@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ompad</title>
+  <meta name="description" content="A clean, responsive personal website." />
+  <meta property="og:title" content="ompad" />
+  <meta property="og:description" content="A clean, responsive personal website." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230ea5e9'/%3E%3Ctext x='50' y='58' font-size='44' text-anchor='middle' fill='white' font-family='Arial, Helvetica, sans-serif'%3EO%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">ompad</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Hi, I’m Ompad</h1>
+        <p class="tagline">I build clean, fast, and user-friendly web experiences.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#work">See my work</a>
+          <a class="btn" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="media">
+          <div class="avatar" role="img" aria-label="Your profile image"></div>
+        </div>
+        <div class="content">
+          <h2>About</h2>
+          <p>
+            I’m a developer/designer based in Your City. I focus on clean UI, accessibility, and performance.
+            I love building helpful tools and delightful experiences on the web.
+          </p>
+          <ul class="badges">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section alt">
+      <div class="container">
+        <h2>Work</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Project One</h3>
+            <p>Short description of what the project does and why it’s useful.</p>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn small outline" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>Short description of what the project does and why it’s useful.</p>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn small outline" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>Short description of what the project does and why it’s useful.</p>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn small outline" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to work together? Send me an email.</p>
+        <p>
+          <a class="btn primary" href="mailto:ompad.vencearrone@llcc.edu.ph">ompad.vencearrone@llcc.edu.ph</a>
+          <a class="btn outline" href="mailto:venceompad123@gmail.com">venceompad123@gmail.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ompad. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
